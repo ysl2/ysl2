@@ -6,7 +6,7 @@
     Hello there. I'm <b>Songli Yu</b>.
   <br>I'm pursuing computer science postgraduate degree in <b>China</b>.
   <br>
-  <br>#Python, #Deep Learning, #Medical Image Analysis</samp>
+  <br>#Python, #Lua</samp>
   <br>
   <br>
   <br>
