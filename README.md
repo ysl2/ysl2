@@ -4,7 +4,7 @@
   <!-- <br> -->
   <samp>
     Hello there. I'm <b>Songli Yu</b>.
-  <br>I'm pursuing computer science postgraduate degree in <b>China</b>.
+  <br>I'm new <b>there</b>.
   <br>
   <br>#Python, #Lua</samp>
   <br>
