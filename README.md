@@ -4,7 +4,7 @@
   <!-- <br> -->
   <samp>
     Hello there. I'm <b>Songli Yu</b>.
-  <br>I'm new <b>there</b>.
+  <br>I'm new <b>here</b>.
   <br>
   <br>#Python, #Lua</samp>
   <br>
