@@ -3,7 +3,7 @@
   <!-- <br> -->
   <!-- <br> -->
   <samp>
-    Hello there. I'm <b>Songli Yu</b>.
+    Hi there. I'm <b>Songli Yu</b>.
   <br>I'm a <b>newbie</b>.
   <br>
   <br>#Python, #Lua</samp>
