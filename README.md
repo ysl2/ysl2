@@ -6,7 +6,7 @@
     Hi there. I'm <b>Songli Yu</b>.
   <br>I'm a <b>newbie</b>.
   <br>
-  <br>#Python, #Lua</samp>
+  <br>#C, #Java, #Python, #BashScript, #Lua</samp>
   <br>
   <br>
   <br>
