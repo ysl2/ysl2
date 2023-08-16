@@ -5,7 +5,7 @@
   <samp>
     Hi there. I'm <b>Songli Yu</b>.
   <br>I'm <b>studying</b> for a master's degree at Shandong University in <b>China</b>.
-  <br>I'm a <b>newbee</b>.
+  <br>I'm a <b>newbie</b>.
   <br>
   <br>#C, #Java, #Python, #BashScript, #Lua</samp>
   <!-- <br> -->
