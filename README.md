@@ -43,6 +43,8 @@
         -w /root \
         ysl2/ysl2:latest \
         zsh
+
+    # Then you can run something like `git pull ...` in `/root/.config/nvim`, `/root/.dotfiles/` and `/root`
     ```
 
 1. (For myself) How to push changes to the docker hub:
