@@ -8,7 +8,7 @@
     docker pull ysl2/ysl2:latest
     ```
 
-2. Go to the env.
+1. Go to the env.
 
     ```bash
     docker run \
@@ -19,7 +19,7 @@
         zsh
     ```
 
-3. If you only want to use nvim, try this:
+1. If you only want to use nvim, try this:
 
     ```bash
     # For example, you want to edit your project `~/.config/nvim`:
@@ -31,4 +31,29 @@
         -w /root/myproject \
         ysl2/ysl2:latest \
         nvim
+    ```
+
+1. How to hot update in container:
+
+    ```bash
+    docker run \
+        -it \
+        -v ~/.ssh/id_rsa:/root/.ssh/id_rsa \
+        -v ~/.ssh/id_rsa.pub:/root/.ssh/id_rsa.pub \
+        -w /root \
+        ysl2/ysl2:latest \
+        zsh
+    ```
+
+1. (For myself) How to push changes to the docker hub:
+
+    ```bash
+    # Start the container, and modify something
+    docker run -it ysl2/ysl2:v0.1.1 /usr/bin/zsh
+
+    # Publish changes:
+    docker commit 7b7f9d12db29 ysl2/ysl2:v0.1.2
+    docker tag ysl2/ysl2:v0.1.2 ysl2/ysl2:latest
+    docker push ysl2/ysl2:v0.1.2
+    docker push ysl2/ysl2:latest
     ```
