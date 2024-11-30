@@ -1,21 +1,34 @@
-<p align="center">
-  <!-- <br> -->
-  <!-- <br> -->
-  <!-- <br> -->
-  <samp>
-    Hi there. I'm <b>Songli Yu</b>.
-  <br>I'm <b>studying</b> for a master's degree at Shandong University in <b>China</b>.
-  <br>I'm a <b>newbie</b>.
-  <br>
-  <br>#C, #Java, #Python, #BashScript, #Lua</samp>
-  <!-- <br> -->
-  <!-- <br> -->
-  <!-- <br> -->
-  <!-- <br> -->
-  <!--<img src="assets/images/hollor_knight3.gif" width="200"/>-->
-  <!-- <img src="https://github.com/selimdoyranli/selimdoyranli/blob/master/preview.gif" width="350" /> -->
-  <!-- <br> -->
-  <!-- <br> -->
-  <!-- <br> -->
-  <!-- <br> -->
-</p>
+# My workflow: dotfiles + nvim
+
+## Try it in docker
+
+1. Download docker mirror:
+
+    ```bash
+    docker pull ysl2/ysl2:latest
+    ```
+
+2. Go to the env.
+
+    ```bash
+    docker run \
+        -it \
+        --rm \
+        -w /root \
+        ysl2/ysl2:latest \
+        zsh
+    ```
+
+3. If you only want to use nvim, try this:
+
+    ```bash
+    # For example, you want to edit your project `~/.config/nvim`:
+    docker run \
+        -it \
+        --rm \
+        -e PATH=/root/.vocal/_:/root/.vocal:/root/.vocal/nvim-linux64/bin:/root/.vocal/node-v22.11.0-linux-x64/bin:/root/.vocal/go/bin:/root/.cargo/bin:/root/.local/bin:/root/bin:/usr/sbin:/sbin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/root/.vocal/go/gopath/bin: \
+        -v ~/.config/nvim:/root/myproject \
+        -w /root/myproject \
+        ysl2/ysl2:latest \
+        nvim
+    ```
